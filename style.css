@@ -171,6 +171,18 @@ ol {
     .container .box-1-info{
         margin-bottom: 40px;
     }
+    .container .box-5-form-input{
+        padding: 15px 50px;
+    }
+    .container .box-5-button-1{
+        font-size: 16px;
+        width: 270px;
+        padding: 15px 70px;
+    }
+    .container .box-5-blok-item{
+        width: 40%;
+    }
+
 }
 @media(max-width:1020px){
     .container{
@@ -200,6 +212,27 @@ ol {
 padding-bottom: 15px;
 
     }
+    .container .box-4-picture-img{
+        padding-right:150px;
+    }
+    .container .box-4-info-text{
+        width: 400px;
+    }
+    .container .box-5-form-input{
+        padding: 15px 38px;
+    }
+    .container .box-5-button-1{
+        font-size: 16px;
+        width: 240px;
+        padding: 15px 55px;
+    }
+    .container .box-5-blok-info .box-5-blok-text{
+        width: 270px;
+    }
+    .container .box-5-blok-title{
+        font-size: 20px;
+    }
+        
 }
 @media(max-width:920px){
     .container{
@@ -261,6 +294,23 @@ padding-bottom: 15px;
         }
         .box-3 .box-3-item{
             width: 25%;
+        }
+
+        .container .box-5-form-input{
+            padding: 15px 34px;
+            padding-left: 40px;
+            width: 210px;
+        }
+        .container .box-5-button-1{
+            font-size: 16px;
+            width: 210px;
+            padding: 12px 40px;
+        }
+        .container .box-5-blok-info .box-5-blok-text{
+            width: 220px;
+        }
+        .container .box-5-blok-title{
+            font-size: 20px;
         }
 }
 @media(max-width:820px){
@@ -329,7 +379,28 @@ padding-bottom: 15px;
         width: 50%;
         margin: 20px 0px;
     }
-}
+    .container .box-4-title{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .container .box-4-picture-img{
+        padding-right: 0px;
+        margin-left: 1px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .container .box-4-info-text{
+        width: 280px;
+    }
+    .container .box-4-part{
+        flex-direction: column;
+    }
+    .container .box-4-info{
+        margin-left: 150px;
+    }
+
 }
 @media(max-width:720px){
     .container{
@@ -424,6 +495,9 @@ padding-bottom: 15px;
         margin-left: -10px;
         
     }
+    .strelka-left,.strelka-right{
+        width: 50px;
+    }
     .container .box-1-box-text{
         width: 250px;
     }
@@ -482,6 +556,9 @@ padding-bottom: 15px;
     .box-3 .container .box-3-item-text{
         text-align: justify;
     }
+    .container .box-4-info-text{
+        width: 220px;
+    }
 }
 @media(max-width:520px){
     .container{
@@ -532,7 +609,9 @@ padding-bottom: 15px;
     font-size: 16px;
     padding-bottom: 10px;
 }
-
+.container .box-4-info{
+    margin-left: 50px;
+}
 
 }
 
@@ -571,7 +650,10 @@ padding-bottom: 15px;
         padding-bottom: 10px;
     }
 
-  
+    .container .box-4-info{
+        margin-left: 30px;
+        width: 200px;
+    }
 
 }
 /* ****************header******************** */
@@ -1149,6 +1231,7 @@ padding-bottom: 15px;
 .box-3-title {
     font-size: 50px;
     line-height: 60px;
+    
     text-align: center;
     letter-spacing: -1.87579px;
     color: #19191B;
@@ -1226,7 +1309,7 @@ padding-bottom: 15px;
 
 .box-4 {
     background-color: #F2F2F2;
-    padding: 80px;
+    padding: 50px;
     padding-top:10px;
 }
 
@@ -1275,8 +1358,16 @@ padding-bottom: 15px;
 
 .box-5 {
     background-color: #413E65;
-    padding: 80px;
+    padding: 50px;
     text-align: center;
+    
+
+}
+.box-5 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-5-title {
@@ -1285,6 +1376,7 @@ padding-bottom: 15px;
     text-align: center;
     letter-spacing: -1.87579px;
     color: #FFFFFF;
+    width: 350px;
     padding-top: 50px;
 }
 
@@ -1295,7 +1387,7 @@ padding-bottom: 15px;
     letter-spacing: -0.656526px;
     color: rgba(255, 255, 255, 0.7);
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 20px;width: 350px;
     text-align: center;
 }
 
@@ -1423,7 +1515,9 @@ padding-bottom: 15px;
 }
 
 .box-5-blok-icon {
-    width: 50px;
+    width: 40px;
+    margin-bottom: 35px;
+    margin-left: 80px;
 }
 
 .box-5-blok-item {
@@ -1441,7 +1535,7 @@ padding-bottom: 15px;
     letter-spacing: -0.750316px;
     margin-bottom: 20px;
     color: #FFFFFF;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
 }
 
@@ -1449,12 +1543,12 @@ padding-bottom: 15px;
     font-size: 16px;
     line-height: 23px;
     letter-spacing: -0.500211px;
-
+width: 300px;
     color: rgba(255, 255, 255, 0.7);
 }
 
 .box-5-blok-info {
-    margin-left: 30px;
+    margin-left: 0px;
     text-align: justify;
 }
 
