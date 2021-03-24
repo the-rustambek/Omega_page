@@ -443,6 +443,10 @@ padding-bottom: 15px;
         font-size: 18px;
         padding-bottom: 8px;
     }
+    .box-6 .box-6-title{
+        font-size: 30px;
+        line-height: 30px;
+    }
 
 }
 @media(max-width:720px){
@@ -514,6 +518,61 @@ padding-bottom: 15px;
             width: 150px;
             padding:16px;
             font-size: 15px;
+        }
+        .container .box-5-item .box-5-item-text{
+            margin-bottom: 10px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+        .container .box-5-link-2{
+            font-size: 16px;
+            line-height: 16px;
+            width: 180px;
+            margin-top: 80px;
+        }
+        .container .box-5-list .box-5-button-1{
+            margin-top: 60px;
+        }
+        .container .box-5-list{
+            flex-direction: column;
+        }
+        .container .box-5-item{
+            width: 300px;
+            margin: 25px 0px;
+        }
+        .container  .box-5-item-text{
+            font-size: 18px;
+            width: 200px;
+            margin-left: 40px;
+        }
+        .container  .box-5-item-text-2{
+            font-size: 18px;
+            width: 200px;
+            margin-left: 40px;
+        }
+        .container .box-5-form .box-5-form-input{
+            width: 200px;
+        }
+        .container .box-5-form{
+            position: relative;
+        }
+        .container .box-5-item .box-5-form-icon{
+            position:absolute;
+            left: 12%;
+            top: 5%;
+        transform: translate(50%,50%);
+            
+        }
+        .container .box-5-item .box-5-link-1{
+            margin-left:60px;
+        }
+        .container .box-5-item .box-5-link-2{
+            margin-left:60px;
+            width: 170px;
+        }
+        .container .box-5-blok-list{
+            flex-direction: column;
+            margin-right: 60px;
         }
 }
 
@@ -622,6 +681,22 @@ padding-bottom: 15px;
     .container .box-4-info-text{
         width: 220px;
     }
+    .container .box-6-link{
+        font-size: 16px;
+        width: 240px;
+    }
+    .container .box-6-info  .box-6-text{
+        width: 200px;
+    }
+    .container .footer .footer-link{
+        font-size: 0px;
+    }
+    .container .footer-text{
+        font-size: 0px;
+    }
+    .container .footer-title-link{
+        font-size: 0px;
+    }
 }
 @media(max-width:520px){
     .container{
@@ -674,6 +749,9 @@ padding-bottom: 15px;
 }
 .container .box-4-info{
     margin-left: 50px;
+}
+.box-6 .container .box-6-info-1{
+    flex-direction: column;
 }
 
 }
@@ -735,6 +813,10 @@ padding-bottom: 15px;
     background-color: #F2F2F2;
 
 
+
+}
+.container .box-6-text{
+    width: 300px;
 }
 .nav-list-icon{
     width: 35px;
