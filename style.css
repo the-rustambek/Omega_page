@@ -151,7 +151,7 @@ ol {
     width: 45%;
 }
 .container .box-2-item{
-    width: 25%;
+    width: 23.1%;
 }
 
 
@@ -1379,22 +1379,26 @@ padding-bottom: 15px;
 
 .box-2-blok-part-list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-top: 100px;
+    justify-content: center;
+    text-align: center;
 }
 
-.box-2-blok-part-text {
+.container .box-2-blok-part-text {
     font-size: 21px;
     line-height: 29px;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: -0.656526px;
     color: #696871;
     margin-top: 40px;
-    width: 300px;
+    width: 270px;
 }
 .box-2-blok-part-item{
-    width: 27%;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-3 {
@@ -1434,7 +1438,7 @@ padding-bottom: 15px;
     background-color: white;
     padding: 15px;
     margin: 0px 15px;
-    width: 30%;
+    width: 27%;
 }
 
 .box-3-icon {
@@ -1531,7 +1535,7 @@ padding-bottom: 15px;
     line-height: 28px;
     letter-spacing: -0.500211px;
     color: #696871;
-    width: 550px;
+    width:420px;
 }
 
 .box-5 {
@@ -1576,9 +1580,9 @@ padding-bottom: 15px;
 }
 
 .box-5-item {
-    width: 30%;
-    height: 400px;
-    margin: 0px 15px;
+    width: 28.8%;
+    
+    margin: 0px 12px;
     padding: 15px;
     background-color: white;
     border-radius: 10px;
