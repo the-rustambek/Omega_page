@@ -249,10 +249,9 @@ padding-bottom: 15px;
         width: 29%;
     }
         .container .box-2-blok-part-item{
-            width: 33%;
-        }
+            width:26%}
         .container .box-2-blok-part-text{
-            width: 250px;
+            width: 230px;
         }
         .container .box-5-blok-list{
             justify-content: center;
@@ -1124,22 +1123,21 @@ padding-bottom: 15px;
 
 .box-1 {
     
-    text-align: center;
+    /* text-align: center; */
     background-color: #F2F2F2;
-    padding: 80px;
+    padding: 50px;
 
 }
 
 .box-1-box {
-    width: 900px;
-    height: 350px;
+    padding: 50px;
     background-color: white;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: justify;
-    margin-left: 100px;
+    
     box-shadow: 10px 10px 5px 5px rgb(240, 235, 235);
     position: relative;
 }
